@@ -1689,7 +1689,7 @@ if ( $can_edit ) {
 
   if ( $id > 0 && ( $login == $create_by || $single_user == 'Y' || $is_admin ) )
     echo '
-    <a href="del_entry.php?id=' . $id . '" onclick="return confirm( \''
+    <a id="delete_link" href="del_entry.php?id=' . $id . '" onclick="return confirm( \''
      . translate( 'Are you sure you want to delete this entry?' ) . '\' );">'
      . translate ( 'Delete entry' ) . '</a><br />';
 } else
