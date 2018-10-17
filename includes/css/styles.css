@@ -11,6 +11,8 @@
  * @package WebCalendar
  */
 
+@import url("custom.css");
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
