@@ -1680,7 +1680,7 @@ if ( $can_edit ) {
           <td>
             <script type="text/javascript">
 <!-- <![CDATA[
-              document.writeln ( \'<input type="button" value="'
+              document.writeln ( \'<input id="saveEntryButton" type="button" value="'
    . $saveStr . '" onclick="validate_and_submit()" />\' )
 //]]> -->
             </script>
